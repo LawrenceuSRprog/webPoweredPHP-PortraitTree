@@ -1,0 +1,56 @@
+Main Form is called: AAA_Cent_00.php
+====================================
+
+Most of whats missing is in: <Pictures-ForPseudoFORMS>
+
+
+|--- NAME ---- --| --- --- Function ---- --- --|-- Navigation --
+=================================================================
+Loop00           | Actually runs S.P           | Back to Central
+                 | Confirms what it did        | -- Gets to AAA
+    Conf: RESET  |                             |
+=================================================================
+Loop01.php       |  Names the FORM to VIEW     | Back to Central
+                 |                             | -- Gets to AAA 
+=================================================================
+Loop02.php       | true SQL populates list     | 
+                 | rather weak editor          | Quit Gets to AAA
+    conf: adjust | line --> updates list       | SAVE Gets 
+       4 DEFAULT |                             |    to Loop02A
+=================================================================
+Loop02_SAVE.php  | Either                      |
+                 |   Writes WITHOUT doing      | SHOULD have been
+     SHOULD have |     SQL insert statements   |  like Loop00 
+     Confirmed:  | OR                          |
+ Completed Adj.. |    Blurbs INSTEAD of SAYING | 
+                 |     SAYING nothing to send  |
+=================================================================
+Loop03.php       | SHOULD HAVE named FORM to   | Back to Central
+                 | VIEW                        | -- Gets to AAA
+                 | Seems to be doing RELEVANT  |
+                 |            DATABASE READING |
+=================================================================
+Loop04A.php      | true SQL - RUNS S.P         | Back to Central
+                 |                             | -- Gets to AAA
+CONFIRMS:        |                             |
+   Saved DEFAULT | SHOULD be doing  (like 4B)  |
+       as LATEST |   RELEVANT DATABASE READING |                      |
+=================================================================
+Loop04B.php      | true SQL - RUNS S.P         | Back to Central
+                 |                             | -- Gets to AAA
+CONFIRMS:        |                             |
+   Saved DEFAULT | Seems to be doing RELEVANT  |
+       as LATEST |            DATABASE READING |
+=================================================================
+Loop05.php       | Names the FORM to VIEW      | Back to Central
+                 |                             | -- Gets to AAA
+=================================================================
+Loop06.php       | SHOULD HAVE given message:  | Back to Central
+                 |  "NOT-YET" similar 2 Loop03 | -- Gets to AAA
+
+                 
+
+
+
+
+
